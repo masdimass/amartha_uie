@@ -1,0 +1,324 @@
+@font-face {
+  font-family: helvetica;
+  src: url("../fonts/Helvetica.otf");
+}
+
+@font-face {
+  font-family: helvetica-bold;
+  src: url("../fonts/Helvetica-Bold.ttf");
+}
+
+@font-face {
+  font-family: helvetica-rounded;
+  src: url("../fonts/Helvetica-Rounded.otf");
+}
+
+@font-face {
+  font-family: abel;
+  src: url("../fonts/Abel-Regular.ttf");
+}
+
+.btn, a {
+  opacity: 1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.btn:hover, a:hover {
+  opacity: 0.8;
+}
+
+nav {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+nav .nav-link {
+  font-family: helvetica;
+  font-size: 16px;
+  font-weight: bold;
+  color: #4F4F4F;
+}
+
+#hero {
+  background: url(../images/hero-image.png) no-repeat;
+  background-position: right center;
+  height: 100vh;
+}
+
+#hero .hero-copy {
+  margin-top: 100px;
+}
+
+#hero h5 {
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  font-style: normal;
+  color: #BDBDBD;
+  margin-top: 10%;
+}
+
+#hero h1 {
+  font-family: abel;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #804099;
+}
+
+#hero h3 {
+  font-family: abel;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 45px;
+  color: #4F4F4F;
+}
+
+#hero .btn-default {
+  font-family: helvetica-rounded;
+  text-align: center;
+  background: #804099;
+  color: #FFFFFF;
+  border-radius: 30px;
+  width: 300px;
+}
+
+#jobs a {
+  text-decoration: none;
+}
+
+#jobs h5 {
+  font-family: helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #BDBDBD;
+}
+
+#jobs .view-all {
+  font-family: helvetica-bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #804099;
+  text-decoration: none;
+}
+
+#jobs .jobs-box {
+  width: 350px;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #E0E0E0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+  word-wrap: break-word;
+}
+
+#jobs .jobs-box .jobs-title {
+  font-family: helvetica-bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 25px;
+  color: #333333;
+}
+
+#jobs .jobs-box .jobs-location {
+  font-family: helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #BDBDBD;
+}
+
+#slider img {
+  width: 100%;
+}
+
+#slider .swiper-button-prev {
+  left: 50px;
+  width: auto;
+}
+
+#slider .swiper-button-next {
+  right: 50px;
+  width: auto;
+}
+
+#slider .swiper-button-prev::after {
+  content: "";
+}
+
+#slider .swiper-button-next::after {
+  content: "";
+}
+
+#slider .swiper-pagination {
+  bottom: 50px;
+}
+
+#slider .swiper-pagination-bullet-active {
+  background: #804099;
+  opacity: 1;
+}
+
+#slider .swiper-pagination-bullet {
+  background: #804099;
+}
+
+#culture img {
+  width: 100%;
+}
+
+#culture h5 {
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  font-style: normal;
+  color: #BDBDBD;
+  margin-bottom: 30px;
+}
+
+#culture .accordion .card {
+  border: none;
+  background: #FFFFFF;
+}
+
+#culture .accordion .card .btn.collapsed {
+  color: #4F4F4F;
+}
+
+#culture .accordion .card-header {
+  border: none;
+  background: #FFFFFF;
+  padding: 0;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+#culture .accordion .card-header .btn {
+  font-family: helvetica;
+  font-size: 28px;
+  font-weight: bold;
+  color: #804099;
+}
+
+#culture .accordion .card-body {
+  font-family: helvetica;
+  font-size: 16px;
+  color: #4F4F4F;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+#culture .accordion a, #culture .accordion .btn {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-decoration: none;
+  padding: 0;
+}
+
+footer {
+  background: #804099;
+  color: #FFFFFF;
+}
+
+footer ul li {
+  margin-bottom: 30px;
+  list-style: none;
+}
+
+footer ul li a, footer ul li a:hover {
+  font-family: Helvetica;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+footer p {
+  text-align: right;
+  font-size: 16px;
+  font-family: helvetica;
+}
+
+@media (max-width: 480px) {
+  #hero {
+    background-position: center center;
+    background-size: cover;
+    height: 65vh;
+  }
+  #hero h5 {
+    font-size: 12px;
+  }
+  #hero h1 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+  #hero h3 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  #hero .btn-default {
+    width: 200px;
+    font-size: 12px;
+    margin-top: 15px;
+  }
+  #hero .wrapper {
+    height: 65vh;
+    background-color: rgba(255, 255, 255, 0.95);
+  }
+  #hero .wrapper .hero-copy {
+    margin-top: 30px;
+  }
+  #jobs h5 {
+    font-size: 12px;
+  }
+  #jobs .view-all {
+    font-size: 12px;
+  }
+  #jobs .view-all img {
+    width: 15px;
+  }
+  #jobs img {
+    max-width: 40px;
+  }
+  #jobs .jobs-box {
+    height: 90px;
+  }
+  #jobs .jobs-title {
+    font-size: 16px !important;
+  }
+  #jobs .jobs-location {
+    font-size: 14px;
+  }
+  #slider .swiper-button-prev, #slider .swiper-button-next {
+    display: none;
+  }
+  #slider .swiper-pagination {
+    bottom: 10px;
+  }
+  #culture h5 {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  #culture .accordion .card-header .btn {
+    font-size: 22px;
+  }
+  footer ul {
+    padding: 0;
+  }
+  footer p {
+    text-align: left;
+  }
+}
+/*# sourceMappingURL=style.css.map */
